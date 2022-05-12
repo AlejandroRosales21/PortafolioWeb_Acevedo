@@ -1,0 +1,36 @@
+main {
+    padding: 0 15%;
+}
+.heroe {
+    flex-direction: row;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.heroe__info {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-right: 80px;
+}
+.heroe__titulo {
+    text-align: start;
+}
+.experiencia__contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.experiencia__contenedor div:first-child {
+    margin-top: 0;
+}
+.experiencia__contenedor div:last-child {
+    margin-top: 0;
+}
+.formulario__asunto,
+.formulario__mensaje {
+    max-width: 50%;
+}
+.formulario__boton {
+   width: 100%; 
+   max-width: 50%;
+    
+}
