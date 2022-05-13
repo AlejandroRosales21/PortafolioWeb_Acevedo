@@ -28,9 +28,9 @@ main {
 .formulario__asunto,
 .formulario__mensaje {
     max-width: 50%;
+    min-width: 50%;
 }
 .formulario__boton {
    width: 100%; 
    max-width: 50%;
-    
 }

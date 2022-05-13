@@ -43,7 +43,7 @@ button {
     font-family: var(--dm-sans);
     font-weight: var(--negrita);
 }
-button :hover {
+button:hover {
     cursor: pointer;
 }
 .boton {
@@ -131,9 +131,10 @@ main {
 .experiencia__objeto:nth-child(2) {
     margin-top: 0;
 }
-.experiencia__objeto:last-child {
-    margin-bottom: 0;
+.experiencia__objeto:nth-child(3) {
+    margin-top: 0;
 }
+
 .experiencia-objeto__titulo {
     margin-bottom: 4px;
 }
@@ -150,6 +151,7 @@ main {
     padding: 0 16px;
     border-radius: 4px;
     height: 42px;
+    width: 100%;
     min-width: 174px;
     background-color: var(--blanco-oscuro);
     border: 2px solid var(--blanco);
@@ -159,6 +161,7 @@ main {
     margin-bottom: 16px;
     padding: 8px 16px 0;
     height: 100px;
+    width: 100%;
     min-width: 174px;
     max-width: 100%;
     max-height: 200px;
